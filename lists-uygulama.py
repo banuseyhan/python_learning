@@ -6,14 +6,14 @@ sonuc = len(telefonlar)
 
 # 3-  Listenin ilk ve son elemanı nedir ?
 sonuc = telefonlar[0]
-sonuc = telefonlar[-1]
+sonuc = telefonlar[-1] #son elemanı -1 ile tanımlarız
 
 # 4-  "Samsung S5" değerini "Samsung S9" ile değiştirin.
 # telefonlar[0] = "Samsung S9"
 sonuc = telefonlar
 
 # 5-  "Samsung S6" listenin bir elemanı mıdır ?
-if "Samsung S6" in telefonlar:
+if "Samsung S6" in telefonlar: #in komutu içinde anlamındadır. telefonlar listesinde içinde anlamındadır
       print("Samsung S6 liste içinde var.")
 
 # 6-  Listenin -3 indeksindeki değer nedir ?
