@@ -43,8 +43,8 @@ sonuc = diller[:3]
 sonuc = diller[-1]
 sonuc = diller[-4:-1]
 # diller[0] = "Html"
-diller[-1] = "Html"
-sonuc = len(diller)
+diller[-1] = "Html" #değiştirme liste elemanını
+sonuc = len(diller) #eleman sayısı
 sonuc = diller + ["Angular","Vuejs"]
 
 # if bloğu=> Koşul ifadeleri
@@ -55,7 +55,7 @@ if "Python" in diller:
 for x in diller:
     print(x)
 
-del diller[0]
+del diller[0] #silme
 
 sonuc = diller
 
